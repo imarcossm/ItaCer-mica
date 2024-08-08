@@ -19,7 +19,7 @@ body {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   align-content: flex-start;
   background-color: inherit;
@@ -71,11 +71,9 @@ nav ul li a {
 
 main {
   margin: 10px;
-  padding-left: 80px;
 }
 
-h1,
-h2 {
+h2{
   color: darkblue;
   margin: 5px;
   padding: 5px;
