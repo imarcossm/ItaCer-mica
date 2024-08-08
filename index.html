@@ -5,149 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
     <title>ItaCerâmica - Produtos Cerâmicos</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Ita-Cerâmica</h1>
-      <nav>
-        <ul>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <hr>
+    <div class="layout">
+      <header>
+        <h1>Ita-Cerâmica</h1>
+        <nav>
+          <ul>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="produtos">
         <h2>Pisos Cerâmicos</h2>
-        <hr />
-        <article>
-          <a href="piso_maderato_marrom.html">
-            <img src="img/Piso Maderato Marrom.webp" alt="Piso Maderato Marrom"/>
-            <h2>Piso Maderato Marrom</h2>
-          </a>
-          <p>Piso cerâmico marrom, ótimo para harmonizar o ambiente!</p>
-          <span>R$ 22</span>
-        </article>
-        <hr>
-        <article>
-          <a href="piso_acetinado.html">
-            <img src="img/Piso Acetinado.webp" alt="Piso Acetinado"/>
-            <h2>Piso Acetinado Cinza</h2>
-          </a>
-          <p>Piso cerâmico acetinado, ótimo para cores claras!</p>
-          <span>R$ 23,90</span>
-        </article>
-        <hr />
-        <article>
-          <a href="piso_ceramico_marmorizado.html">
-            <img src="img/Piso Cerâmico Marmorizado.webp" alt="Piso Cerâmico Marmorizado"/>
-            <h2>Piso Cerâmico Marmorizado</h2>
-          </a>
-          <p>Piso cerâmico marmorizado, ideal para ambientes escuros!</p>
-          <span>R$ 28</span>
-        </article>
-        <hr />
-        <article>
-          <a href="piso_ceramico_pedra.html">
-            <img src="img/Piso Cerâmico Pedra.webp" alt="Piso Cerâmico Pedra"/>
-            <h2>Piso Cerâmico Pedra</h2>
-          </a>
-          <p>Piso cerâmico pedra, ideal para ambientes rústicos!</p>
-          <span>R$ 21</span>
-        </article>
-      </section>
-      <section class="Telhas">
-        <hr>
+        <section class="produtos-container">
+          <article>
+            <a href="piso_maderato_marrom.html">
+              <img
+                src="img/Piso Maderato Marrom.webp"
+                alt="Piso Maderato Marrom"
+                width="250px"
+              />
+              <h2>Piso Maderato Marrom</h2>
+            </a>
+            <p>Piso cerâmico marrom, ótimo para harmonizar o ambiente!</p>
+            <span>R$ 22</span>
+          </article>
+          <article>
+            <a href="piso_acetinado.html">
+              <img
+                src="img/Piso Acetinado.webp"
+                alt="Piso Acetinado"
+                width="250px"
+              />
+              <h2>Piso Acetinado Cinza</h2>
+            </a>
+            <p>Piso cerâmico acetinado, ótimo para cores claras!</p>
+            <span>R$ 23,90</span>
+          </article>
+          <article>
+            <a href="piso_ceramico_marmorizado.html">
+              <img
+                src="img/Piso Cerâmico Marmorizado.webp"
+                alt="Piso Cerâmico Marmorizado"
+                width="250px"
+              />
+              <h2>Piso Cerâmico Marmorizado</h2>
+            </a>
+            <p>Piso cerâmico marmorizado, ideal para ambientes escuros!</p>
+            <span>R$ 28</span>
+          </article>
+          <article>
+            <a href="piso_ceramico_pedra.html">
+              <img
+                src="img/Piso Cerâmico Pedra.webp"
+                alt="Piso Cerâmico Pedra"
+                width="250px"
+              />
+              <h2>Piso Cerâmico Pedra</h2>
+            </a>
+            <p>Piso cerâmico pedra, ideal para ambientes rústicos!</p>
+            <span>R$ 21</span>
+          </article>
+        </section>
         <h2>Telhas Cerâmicas</h2>
-        <hr />
-        <article>
-          <a href="telha_precon.html">
-            <img src="img/Telha Cerâmica.webp" alt="Telha Precon"/>
-            <h2>Telha Precon</h2>
-          </a>
-          <p>Telha cerâmica precon, para qualquer estilo arquitetônico!</p>
-          <span>R$ 7</span>
-        </article>
-        <hr />
-        <article>
-          <a href="telha_esmaltada.html">
-            <img src="img/Telha Cerâmica Esmaltada.webp" alt="Telha Esmaltada"/>
-            <h2>Telha Esmaltada</h2>
-          </a>
-          <p>Telha cerâmica esmaltada, ideal para residências inovadoras</p>
-          <span>R$ 8,90</span>
-        </article>
-        <hr />
-        <article>
-          <a href="telha_francesa.html">
-            <img src="img/Telha Cerâmica Francesa.webp" alt="Telha Francesa"/>
-            <h2>Telha Francesa</h2>
-          </a>
-          <p>Telha cerâmica Francesa, um toque europeu para sua propriedade!</p>
-          <span>R$ 5,60</span>
-        </article>
-        <hr />
-        <article>
-          <a href="telha_comum.html">
-            <img src="img/Telha Cerâmica Comum.webp" alt="Telha Comum"/>
-            <h2>Telha Comum</h2>
-          </a>
-          <p>Telha cerâmica comum, o padrão de qualidade de sempre!</p>
-          <span>R$ 4</span>
-        </article>
-      </section>
-      <section>
-        <hr>
-        <h2>Blocos Cerâmicos</h2>
-        <hr />
-        <article>
-          <a href="bloco_8furos.html">
-            <img src="img/Bloco Cerâmico 8 furos.webp" alt="Bloco 8 furos"/>
-            <h2>Bloco 8 furos</h2>
-          </a>
-          <p>Bloco 8 furos, robusto e seguro como o seu sonho.</p>
-          <span>R$ 1,70</span>
-        </article>
-        <hr />
-        <article>
-          <a href="bloco_6furos.html">
-            <img src="img/Bloco Cerâmico 6 furos.webp" alt="Bloco 6 furos"/>
-            <h2>Bloco 6 furos</h2>
-          </a>
-          <p>Bloco 6 furos, resistente, prático e compacto.</p>
-          <span>R$ 0,75</span>
-        </article>
-      </section>
-      <section>
-        <hr>
-        <h2>Máquinas</h2>
-        <hr />
-        <article>
-          <a href="maquina_esmerilhadeira.html">
-            <img src="img/Esmerilhadeira.webp" alt="Esmerilhadeira"/>
-            <h2>Esmerilhadeira</h2>
-          </a>
-          <p>Esmerilhadeira, ergonomia, precisão e conforto.</p>
-          <span>R$ 429</span>
-        </article>
-      </section>
-      <section>
-        <hr />
-        <h2>Geral</h2>
-        <hr />
-        <article>
-          <a href="vaso_sanitario.html">
-            <img src="img/Vaso Sanitário.webp" alt="Vaso Sanitário Monobloco"/>
-            <h2>Vaso Sanitário Monobloco</h2>
-          </a>
-          <p>Vaso Sanitário Monobloco, conforto, elegância e durabilidade.</p>
-          <span>R$ 1049</span>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <hr />
-      <p>Desenvolvido por: Marcos Vinícius Santos Morais</p>
-    </footer>
+        <section class="produtos-container">
+          <article>
+            <a href="telha_precon.html">
+              <img
+                src="img/Telha Precon.webp"
+                alt="Telha Precon"
+                width="250px"
+              />
+              <h2>Telha Precon</h2>
+            </a>
+            <p>Telha cerâmica precon, para qualquer estilo arquitetônico!</p>
+            <span>R$ 7</span>
+          </article>
+          <article>
+            <a href="telha_esmaltada.html">
+              <img
+                src="img/Telha Cerâmica Esmaltada.webp"
+                alt="Telha Esmaltada"
+                height="250px"
+                width="300px"
+              />
+              <h2>Telha Esmaltada</h2>
+            </a>
+            <p>Telha cerâmica esmaltada, ideal para residências inovadoras</p>
+            <span>R$ 8,90</span>
+          </article>
+          <article>
+            <a href="telha_francesa.html">
+              <img
+                src="img/Telha Cerâmica Francesa.webp"
+                alt="Telha Francesa"
+                width="250px"
+              />
+              <h2>Telha Francesa</h2>
+            </a>
+            <p>
+              Telha cerâmica Francesa, um toque europeu para sua propriedade!
+            </p>
+            <span>R$ 5,60</span>
+          </article>
+          <article>
+            <a href="telha_comum.html">
+              <img
+                src="img/Telha Cerâmica Comum.webp"
+                alt="Telha Comum"
+                width="250px"
+              />
+              <h2>Telha Comum</h2>
+            </a>
+            <p>Telha cerâmica comum, o padrão de qualidade de sempre!</p>
+            <span>R$ 4</span>
+          </article>
+        </section>
+          <h2>Blocos Cerâmicos</h2>
+        <section class="produtos-container">
+
+          <article>
+            <a href="bloco_8furos.html">
+              <img
+                src="img/Bloco Cerâmico 8 furos.webp"
+                alt="Bloco 8 furos"
+                width="250px"
+              />
+              <h2>Bloco 8 furos</h2>
+            </a>
+            <p>Bloco 8 furos, robusto e seguro como o seu sonho.</p>
+            <span>R$ 1,70</span>
+          </article>
+          <article>
+            <a href="bloco_6furos.html">
+              <img
+                src="img/Bloco Cerâmico 6 furos.webp"
+                alt="Bloco 6 furos"
+                width="250px"
+              />
+              <h2>Bloco 6 furos</h2>
+            </a>
+            <p>Bloco 6 furos, resistente, prático e compacto.</p>
+            <span>R$ 0,75</span>
+          </article>
+        </section>
+          <h2>Máquinas</h2>
+          
+        <section class="produtos-container">
+          <article>
+            <a href="maquina_esmerilhadeira.html">
+              <img
+                src="img/Esmerilhadeira.webp"
+                alt="Esmerilhadeira"
+                height="250px"
+                width="250px"
+              />
+              <h2>Esmerilhadeira</h2>
+            </a>
+            <p>Esmerilhadeira, ergonomia, precisão e conforto.</p>
+            <span>R$ 429</span>
+          </article>
+        </section>
+          <h2>Geral</h2>
+          
+        <section class="produtos-container">
+          <article>
+            <a href="vaso_sanitario.html">
+              <img
+                src="img/Vaso Sanitário.webp"
+                alt="Vaso Sanitário Monobloco"
+                width="250px"
+              />
+              <h2>Vaso Sanitário Monobloco</h2>
+            </a>
+            <p>Vaso Sanitário Monobloco, conforto, elegância e durabilidade.</p>
+            <span>R$ 1049</span>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <p>Desenvolvido por: Marcos Vinícius Santos Morais</p>
+      </footer>
+    </div>
   </body>
 </html>

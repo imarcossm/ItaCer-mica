@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ItaCerâmica - Comentário</title>
-</head>
-<body>
-    <header>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="layout">
+      <header>
         <h1>Ita-Cerâmica</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Início</a>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <a href="index.html">Início</a>
+            </li>
+          </ul>
         </nav>
-    </header>
-    <hr>
-    <menu>
-        <form action="mailto:viniciusmorais.com@gmail.com" method="post" enctype="text/plain">
-            Nome:<br>
-            <input type="text" name="name"><br>
-            E-mail:<br>
-            <input type="text" name="mail"><br>
-            Comentário:<br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Resetar">
-            </form>
-    </menu>
-    <footer>
-        <hr>
+      </header>
+      <main>
+        <form
+          action="mailto:viniciusmorais.com@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="nome">Nome:</label><br />
+          <input type="text" name="name" /><br />
+          <label for="Email">E-mail:</label><br />
+          <input type="text" name="mail" /><br />
+          <label for="telefone">Telefone:</label><br />
+          <input type="text" name="telefone" /><br />
+          <label for="Comentário">Comentário:</label><br />
+          <input type="text" name="comment" size="50" /><br /><br />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Resetar" />
+        </form>
+      </main>
+      <footer>
+        <hr />
         <p>Desenvolvido por: Marcos Vinícius Santos Morais</p>
-    </footer>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
