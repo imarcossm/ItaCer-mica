@@ -6,7 +6,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Grid Layout */
 .layout {
   width: 100%;
   min-height: 100vh;
@@ -14,7 +13,6 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-/* Flexbox Layout */
 .produtos-container {
   display: flex;
   text-align: center;
@@ -73,7 +71,27 @@ main {
   margin: 10px;
 }
 
-h2{
+main a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+main a:visited {
+  color: darkblue;
+}
+
+main a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+main a:active {
+  color: #333;
+  background-color: lightgray;
+  text-decoration: none;
+}
+
+h2 {
   color: darkblue;
   margin: 5px;
   padding: 5px;
