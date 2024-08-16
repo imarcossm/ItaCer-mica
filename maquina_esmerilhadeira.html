@@ -6,18 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
   <title>Ita Cerâmica - Esmerilhadeira</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <style>
+      main{
+        text-align: center;
+      }
+    </style>
 </head>
 
 <body>
   <div class="layout">
-    <header>
-      <h1>Ita-Cerâmica</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
+    <header class="navbar navbar-expand-lg navbar-light bg-darkblue">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">Ita-Cerâmica</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Início</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <img src="img/Esmerilhadeira.webp" alt="Esmerilhadeira">
@@ -33,7 +46,7 @@
       </p>
       <span>R$ 429</span>
     </main>
-    <footer>
+    <footer class="bg-darkblue text-white text-center py-3 mt-4">
       <p>Desenvolvido por: Marcos Vinícius Santos Morais</p>
     </footer>
   </div>
